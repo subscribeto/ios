@@ -13,8 +13,7 @@ struct ProgramDetailView: View {
 		VStack {
 			Text("...")
 		}
-		.navigationBarTitle("Cappucino")
-		.navigationViewStyle(.)
+		.navigationBarTitle(Text("Cappucino"), displayMode: .inline)
     }
 }
 
