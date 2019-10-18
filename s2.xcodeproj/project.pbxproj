@@ -24,6 +24,7 @@
 		1EB6DE79235A56C900B0D4ED /* MoneyStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */; };
 		1EB6DE7B235A572900B0D4ED /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7A235A572900B0D4ED /* PlaceListView.swift */; };
 		1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */; };
+		1EB6DE7F235A72F200B0D4ED /* TagProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7E235A72F200B0D4ED /* TagProgramView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyStatusView.swift; sourceTree = "<group>"; };
 		1EB6DE7A235A572900B0D4ED /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
 		1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCellView.swift; sourceTree = "<group>"; };
+		1EB6DE7E235A72F200B0D4ED /* TagProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagProgramView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				1E463B2123569C870013A296 /* Tag.swift */,
 				1E463B1D2356994F0013A296 /* TagView.swift */,
 				1E463B1F23569AD50013A296 /* TagStackView.swift */,
+				1EB6DE7E235A72F200B0D4ED /* TagProgramView.swift */,
 			);
 			path = tag;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				1EB6DE7B235A572900B0D4ED /* PlaceListView.swift in Sources */,
 				1EB6DE76235A55B400B0D4ED /* ImageCarouselView.swift in Sources */,
 				1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */,
+				1EB6DE7F235A72F200B0D4ED /* TagProgramView.swift in Sources */,
 				1EB6DE73235A551E00B0D4ED /* SmallMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

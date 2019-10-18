@@ -18,21 +18,13 @@ struct PlaceDetailView: View {
 				HStack {
 					VStack (alignment: .leading) {
 						LargeStarView(rating: Double.random(in: 3...5))
-						HStack (alignment: .center, spacing: 1.0) {
-							TagStackView(tags: [
-								Tag(name: "creditcard", color: .blue),
-								Tag(name: "bag", color: .red),
-								Tag(name: "hifispeaker", color: .green)
-							], offsetSize: 12, frameSize: 30)
-							Image(systemName: "plus")
-								.rotationEffect(Angle(degrees: 45.0))
-								.frame(width: 30, height: 30, alignment: .center)
-								.foregroundColor(.gray)
-							Text("4")
-								.foregroundColor(.gray)
-							Spacer()
-						}
+						TagProgramView(tags: [
+							Tag(name: "creditcard", color: .blue),
+							Tag(name: "bag", color: .red),
+							Tag(name: "hifispeaker", color: .green)
+						], count: 8)
 					}
+					Spacer()
 					SmallMapView()
 				}
 				Text("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
