@@ -11,7 +11,7 @@ import SwiftUI
 struct ProgramDetailView: View {
     var body: some View {
 		VStack {
-			Text("...")
+			Text("test")
 		}
 		.navigationBarTitle(Text("Cappucino"), displayMode: .inline)
     }
