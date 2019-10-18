@@ -32,7 +32,9 @@ struct PlaceDetailView: View {
 					.font(.title)
 			}
 			ForEach(0 ..< 10) { i in
-				ProgramCellView()
+				NavigationLink (destination: ProgramDetailView()) {
+					ProgramCellView()
+				}
 			}
 		}
 		.navigationBarTitle("5th & Elm Coffee")

@@ -14,7 +14,7 @@ struct TagProgramView: View {
 	var count: Int
 	
 	private let offsetSize: Int = 12
-	private let frameSize: Int = 30
+	private let frameSize: Int = 36
 	
     var body: some View {
         HStack (alignment: .center, spacing: 1.0) {
