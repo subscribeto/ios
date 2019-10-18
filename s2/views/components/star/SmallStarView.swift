@@ -9,13 +9,21 @@
 import SwiftUI
 
 struct SmallStarView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+	
+	var rating: Double
+    
+	var body: some View {
+		HStack (alignment: .center, spacing: 2) {
+			Image(systemName: "star.fill")
+				.font(.system(size: 14, weight: .regular, design: .default))
+			Text(String(format: "%.1f", self.rating))
+		}.foregroundColor(.orange)
+	}
+	
 }
 
 struct SmallStarView_Previews: PreviewProvider {
     static var previews: some View {
-        SmallStarView()
+		SmallStarView(rating: Double.random(in: 3...5)).previewLayout(.sizeThatFits)
     }
 }

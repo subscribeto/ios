@@ -17,18 +17,13 @@ struct PlaceDetailView: View {
 					.cornerRadius(5)
 				HStack {
 					VStack (alignment: .leading) {
-						LargeStarView()
+						LargeStarView(rating: Double.random(in: 3...5))
 						HStack (alignment: .center, spacing: 1.0) {
-							TagStackView([
+							TagStackView(tags: [
 								Tag(name: "creditcard", color: .blue),
 								Tag(name: "bag", color: .red),
-								Tag(name: "hifispeaker", color: .green),
-								Tag(name: "gamecontroller", color: .purple),
-								Tag(name: "creditcard", color: .gray),
-								Tag(name: "bag", color: .orange),
-								Tag(name: "hifispeaker", color: .yellow),
-								Tag(name: "gamecontroller", color: .black)
-							])
+								Tag(name: "hifispeaker", color: .green)
+							], offsetSize: 12, frameSize: 30)
 							Image(systemName: "plus")
 								.rotationEffect(Angle(degrees: 45.0))
 								.frame(width: 30, height: 30, alignment: .center)

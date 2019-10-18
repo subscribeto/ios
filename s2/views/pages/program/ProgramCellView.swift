@@ -16,7 +16,7 @@ struct ProgramCellView: View {
 				Text("Cappucino")
 					.bold()
 					.frame(minWidth: 0, idealWidth: 200, maxWidth: .infinity, minHeight: 20, idealHeight: 20, maxHeight: 20, alignment: .leading)
-				StarView()
+				SmallStarView(rating: Double.random(in: 3...5))
 				HStack (alignment: .center, spacing: 6) {
 					TagView(Tag(name: "bookmark", color: .blue), size: 20)
 					Image(systemName: "minus")

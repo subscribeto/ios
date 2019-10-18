@@ -1,42 +1,15 @@
 //
-//  AlternatePlaceView.swift
+//  PlaceCellView.swift
 //  s2
 //
-//  Created by Elijah Cobb on 10/16/19.
+//  Created by Elijah Cobb on 10/18/19.
 //  Copyright © 2019 Apollo Technology. All rights reserved.
 //
 
 import SwiftUI
 
-struct StarView: View {
-	
-	var body: some View {
-		HStack (alignment: .center, spacing: 2) {
-			Image(systemName: "star.fill")
-				.font(.system(size: 14, weight: .regular, design: .default))
-			Text(String(format: "%.1f", Double.random(in: 3...5)))
-		}.foregroundColor(.orange)
-	}
-	
-}
-
-struct MoneyView: View {
-	
-	let rating: Int = Int.random(in: 1...3)
-	
-	var body: some View {
-		HStack (alignment: .center, spacing: 0) {
-			ForEach(0 ..< self.rating) { i in
-				Text("$")
-					.foregroundColor(.gray)
-			}
-		}.foregroundColor(.green)
-	}
-	
-}
-
-struct AlternatePlaceViewRow: View {
-	
+struct PlaceCellView: View {
+   
 	let tags: [Tag] = [
 		Tag(name: "creditcard", color: .blue),
 		Tag(name: "bag", color: .red),
@@ -60,14 +33,14 @@ struct AlternatePlaceViewRow: View {
 					.bold()
 					.frame(minWidth: 0, idealWidth: 200, maxWidth: .infinity, minHeight: 20, idealHeight: 20, maxHeight: 20, alignment: .leading)
 				HStack (alignment: .center, spacing: 4) {
-					TagStackView(randArray)
+					TagStackView(tags: randArray)
 					Image(systemName: "plus")
 						.rotationEffect(Angle(degrees: 45))
 					Text("\(Int.random(in: 1...4))")
 				}.foregroundColor(.gray)
 				HStack {
-					StarView()
-					MoneyView()
+					SmallStarView(rating: Double.random(in: 3...5))
+					MoneyStatusView()
 				}
 			}
 			Rectangle()
@@ -77,27 +50,11 @@ struct AlternatePlaceViewRow: View {
 		}
 		.padding(8)
     }
-}
-
-struct AlternatePlacesView : View {
-	
-	var body: some View {
-		NavigationView {
-			List {
-				ForEach(0 ..< 10000) { i in
-					NavigationLink(destination: PlaceDetailView()) {
-						AlternatePlaceViewRow()
-					}
-				}
-			}
-			.navigationBarTitle("Places")
-		}
-	}
 	
 }
 
-struct AlternatePlaceView_Previews: PreviewProvider {
+struct PlaceCellView_Previews: PreviewProvider {
     static var previews: some View {
-		AlternatePlacesView()
+        PlaceCellView()
     }
 }

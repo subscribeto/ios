@@ -21,7 +21,9 @@
 		1EB6DE70235A54B400B0D4ED /* LargeStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE6F235A54B400B0D4ED /* LargeStarView.swift */; };
 		1EB6DE73235A551E00B0D4ED /* SmallMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE72235A551E00B0D4ED /* SmallMapView.swift */; };
 		1EB6DE76235A55B400B0D4ED /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE75235A55B400B0D4ED /* ImageCarouselView.swift */; };
-		1EDA3D2E23578CDD00A059DA /* AlternatePlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA3D2D23578CDD00A059DA /* AlternatePlaceView.swift */; };
+		1EB6DE79235A56C900B0D4ED /* MoneyStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */; };
+		1EB6DE7B235A572900B0D4ED /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7A235A572900B0D4ED /* PlaceListView.swift */; };
+		1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +44,9 @@
 		1EB6DE6F235A54B400B0D4ED /* LargeStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeStarView.swift; sourceTree = "<group>"; };
 		1EB6DE72235A551E00B0D4ED /* SmallMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMapView.swift; sourceTree = "<group>"; };
 		1EB6DE75235A55B400B0D4ED /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
-		1EDA3D2D23578CDD00A059DA /* AlternatePlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternatePlaceView.swift; sourceTree = "<group>"; };
+		1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyStatusView.swift; sourceTree = "<group>"; };
+		1EB6DE7A235A572900B0D4ED /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +120,9 @@
 		1EB6DE65235A533000B0D4ED /* components */ = {
 			isa = PBXGroup;
 			children = (
-				1EB6DE74235A559500B0D4ED /* carousel */,
-				1EB6DE71235A551200B0D4ED /* map */,
+				1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */,
+				1EB6DE75235A55B400B0D4ED /* ImageCarouselView.swift */,
+				1EB6DE72235A551E00B0D4ED /* SmallMapView.swift */,
 				1EB6DE6C235A548800B0D4ED /* star */,
 				1EB6DE66235A533700B0D4ED /* tag */,
 			);
@@ -137,7 +142,8 @@
 		1EB6DE67235A534800B0D4ED /* place */ = {
 			isa = PBXGroup;
 			children = (
-				1EDA3D2D23578CDD00A059DA /* AlternatePlaceView.swift */,
+				1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */,
+				1EB6DE7A235A572900B0D4ED /* PlaceListView.swift */,
 				1EAFA587235A036100901F3F /* PlaceDetailView.swift */,
 			);
 			path = place;
@@ -166,22 +172,6 @@
 				1EB6DE6F235A54B400B0D4ED /* LargeStarView.swift */,
 			);
 			path = star;
-			sourceTree = "<group>";
-		};
-		1EB6DE71235A551200B0D4ED /* map */ = {
-			isa = PBXGroup;
-			children = (
-				1EB6DE72235A551E00B0D4ED /* SmallMapView.swift */,
-			);
-			path = map;
-			sourceTree = "<group>";
-		};
-		1EB6DE74235A559500B0D4ED /* carousel */ = {
-			isa = PBXGroup;
-			children = (
-				1EB6DE75235A55B400B0D4ED /* ImageCarouselView.swift */,
-			);
-			path = carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,13 +249,15 @@
 				1E5A100F23525D8200778A99 /* S2UIColor.swift in Sources */,
 				1EB6DE70235A54B400B0D4ED /* LargeStarView.swift in Sources */,
 				1E463B2223569C870013A296 /* Tag.swift in Sources */,
+				1EB6DE79235A56C900B0D4ED /* MoneyStatusView.swift in Sources */,
 				1E463B2023569AD50013A296 /* TagStackView.swift in Sources */,
 				1EAFA588235A036100901F3F /* PlaceDetailView.swift in Sources */,
 				1EB6DE6E235A54A900B0D4ED /* SmallStarView.swift in Sources */,
 				1E5A0FF92352530C00778A99 /* AppDelegate.swift in Sources */,
 				1E5A0FFB2352530C00778A99 /* SceneDelegate.swift in Sources */,
-				1EDA3D2E23578CDD00A059DA /* AlternatePlaceView.swift in Sources */,
+				1EB6DE7B235A572900B0D4ED /* PlaceListView.swift in Sources */,
 				1EB6DE76235A55B400B0D4ED /* ImageCarouselView.swift in Sources */,
+				1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */,
 				1EB6DE73235A551E00B0D4ED /* SmallMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

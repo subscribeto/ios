@@ -21,6 +21,6 @@ struct ImageCarouselView: View {
 
 struct ImageCarouselView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageCarouselView()
+		ImageCarouselView().previewLayout(.sizeThatFits)
     }
 }

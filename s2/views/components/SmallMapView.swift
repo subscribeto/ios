@@ -47,6 +47,6 @@ struct SmallMapViewRaw: UIViewRepresentable {
 
 struct SmallMapView_Previews: PreviewProvider {
     static var previews: some View {
-        SmallMapView()
+        SmallMapView().previewLayout(.sizeThatFits)
     }
 }

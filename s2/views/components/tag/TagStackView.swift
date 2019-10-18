@@ -28,10 +28,8 @@ struct TagStackViewItem: View {
 struct TagStackView: View {
 	
 	let tags: [Tag]
-	let offsetSize: Int = 8
-	let frameSize: Int = 24
-	
-	public init (_ t: [Tag]) { self.tags = t }
+	var offsetSize: Int = 8
+	var frameSize: Int = 24
 	
 	var frameWidth: Int {
 		let size = self.tags.count
@@ -49,7 +47,7 @@ struct TagStackView: View {
 
 struct TagStackView_Previews: PreviewProvider {
     static var previews: some View {
-		TagStackView([
+		TagStackView(tags: [
 			Tag(name: "creditcard", color: .blue),
 			Tag(name: "bag", color: .red),
 			Tag(name: "hifispeaker", color: .green),
