@@ -1,13 +1,12 @@
-//
-//  ImageCarouselView.swift
-//  s2
-//
-//  Created by Elijah Cobb on 10/18/19.
-//  Copyright © 2019 Apollo Technology. All rights reserved.
-//
-
 import SwiftUI
 
+/**
+A view that displays images and lets the user swipe through them in a carousel fashion.
+
+- Author: @elijahjcobb
+- Since: v0.1.0
+- Version: v0.1.0
+*/
 struct ImageCarouselView: View {
    
 	var body: some View {

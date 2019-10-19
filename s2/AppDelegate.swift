@@ -1,13 +1,14 @@
-//
-//  AppDelegate.swift
-//  s2
-//
-//  Created by Elijah Cobb on 10/12/19.
-//  Copyright © 2019 Apollo Technology. All rights reserved.
-//
-
 import UIKit
 
+/**
+This is the AppDelegate for the application.
+
+Do not change any code in here as it has to do with App launch, notifications, and intents.
+
+- Author: @elijahjcobb
+- Version: v0.1.0
+- Since: v0.1.0
+*/
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

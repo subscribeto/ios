@@ -40,7 +40,7 @@ struct PlaceCellView: View {
 				}.foregroundColor(.gray)
 				HStack {
 					SmallStarView(rating: Double.random(in: 3...5))
-					MoneyStatusView()
+					MoneyStatusView(rating: Int.random(in: 1...3))
 				}
 			}
 			Rectangle()

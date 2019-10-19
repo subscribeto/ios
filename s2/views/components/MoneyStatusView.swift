@@ -1,16 +1,22 @@
-//
-//  MoneyStatusView.swift
-//  s2
-//
-//  Created by Elijah Cobb on 10/18/19.
-//  Copyright © 2019 Apollo Technology. All rights reserved.
-//
-
 import SwiftUI
 
+/**
+A view to display a variable amount of dollar sign symbols to denote the price of an object.
+
+- Author: @elijahjcobb
+- Since: v0.1.0
+- Version: v0.1.0
+*/
 struct MoneyStatusView: View {
 	
-	let rating: Int = Int.random(in: 1...3)
+	private let rating: Int
+	
+	/**
+	Create a new `MoneyStatusView`.
+	
+	- Parameter rating: The amount of dollar signs you wish to be displayed.
+	*/
+	init(rating: Int) { self.rating = rating }
 	
 	var body: some View {
 		HStack (alignment: .center, spacing: 0) {
@@ -22,8 +28,10 @@ struct MoneyStatusView: View {
 	}
 	
 }
+
+
 struct MoneyStatusView_Previews: PreviewProvider {
     static var previews: some View {
-		MoneyStatusView().previewLayout(.sizeThatFits)
+		MoneyStatusView(rating: Int.random(in: 1...5)).previewLayout(.sizeThatFits)
     }
 }

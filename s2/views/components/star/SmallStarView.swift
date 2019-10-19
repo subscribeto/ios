@@ -8,6 +8,12 @@
 
 import SwiftUI
 
+/**
+A view for displaying a star logo and a rating based off of a rating provided.
+- Author: Elijah Cobb
+- Version: 0.1.0
+- Since: 0.1.0
+*/
 struct SmallStarView: View {
 	
 	var rating: Double

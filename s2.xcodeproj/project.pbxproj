@@ -26,6 +26,7 @@
 		1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */; };
 		1EB6DE7F235A72F200B0D4ED /* TagProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE7E235A72F200B0D4ED /* TagProgramView.swift */; };
 		1EB6DE81235A769900B0D4ED /* ProgramDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE80235A769900B0D4ED /* ProgramDetailView.swift */; };
+		1EB6DE84235A79A400B0D4ED /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6DE83235A79A400B0D4ED /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		1EB6DE7C235A575000B0D4ED /* PlaceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCellView.swift; sourceTree = "<group>"; };
 		1EB6DE7E235A72F200B0D4ED /* TagProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagProgramView.swift; sourceTree = "<group>"; };
 		1EB6DE80235A769900B0D4ED /* ProgramDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramDetailView.swift; sourceTree = "<group>"; };
+		1EB6DE83235A79A400B0D4ED /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				1EB6DE78235A56C900B0D4ED /* MoneyStatusView.swift */,
 				1EB6DE75235A55B400B0D4ED /* ImageCarouselView.swift */,
 				1EB6DE72235A551E00B0D4ED /* SmallMapView.swift */,
+				1EB6DE82235A799400B0D4ED /* menu */,
 				1EB6DE6C235A548800B0D4ED /* star */,
 				1EB6DE66235A533700B0D4ED /* tag */,
 			);
@@ -178,6 +181,14 @@
 				1EB6DE6F235A54B400B0D4ED /* LargeStarView.swift */,
 			);
 			path = star;
+			sourceTree = "<group>";
+		};
+		1EB6DE82235A799400B0D4ED /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				1EB6DE83235A79A400B0D4ED /* MenuView.swift */,
+			);
+			path = menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 				1E5A0FFB2352530C00778A99 /* SceneDelegate.swift in Sources */,
 				1EB6DE7B235A572900B0D4ED /* PlaceListView.swift in Sources */,
 				1EB6DE76235A55B400B0D4ED /* ImageCarouselView.swift in Sources */,
+				1EB6DE84235A79A400B0D4ED /* MenuView.swift in Sources */,
 				1EB6DE7D235A575000B0D4ED /* PlaceCellView.swift in Sources */,
 				1EB6DE7F235A72F200B0D4ED /* TagProgramView.swift in Sources */,
 				1EB6DE81235A769900B0D4ED /* ProgramDetailView.swift in Sources */,

@@ -1,13 +1,14 @@
-//
-//  S2UIColor.swift
-//  s2
-//
-//  Created by Elijah Cobb on 10/12/19.
-//  Copyright © 2019 Apollo Technology. All rights reserved.
-//
-
 import SwiftUI
 
+/**
+Provides the color palatte for the theming of S2.
+
+You can change all colors used in the application through this `struct`.
+
+- Author: @elijahjcobb
+- Since: v0.1.0
+- Version: v0.1.0
+*/
 struct S2UIColor {
 	
 	static let primary = Color(UIColor(red: 0.114, green: 0.565, blue: 0.859, alpha: 1.00))

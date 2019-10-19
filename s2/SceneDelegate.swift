@@ -1,14 +1,15 @@
-//
-//  SceneDelegate.swift
-//  s2
-//
-//  Created by Elijah Cobb on 10/12/19.
-//  Copyright © 2019 Apollo Technology. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 
+/**
+This is the application's scene delegate.
+
+The scene delegate is used to start a scene with SwiftUI. It will create a `UIHostingController` that will handle the rest of the application.
+
+- Author: @elijahjcobb
+- Since: v0.1.0
+- Version: v0.1.0
+*/
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 	var window: UIWindow?
